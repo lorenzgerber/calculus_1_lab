@@ -70,7 +70,7 @@
 \begin{figure}[h!]
   \centering
   \includegraphics[width=1\textwidth]{plot1}
-  \caption{Plot of function $f(x) = x^{11}-5x^2+e^x-5$ in the range from -2 to 2.}
+  \caption{\textit{Plot of function $f(x) = x^{11}-5x^2+e^x-5$ in the range from -1.3 to 1.3. Further, a horizontal line was plotted at $y = 0$ to facilitate finding a start value for the newton method.}}
 \end{figure}
 
 \section{Code Listings}
@@ -93,11 +93,15 @@ All calculations were done in R \cite{rlanguage}.
 
 
 \section{Numeric Solution of $x^{11}-5x^2+e^x=5$}
-From the graph in exercise 1, $x = -1$ was chosen as start value for the \verb+newton+ program.
-The iteration was run with $n = \{1,10,100\}$ which resultet for the two latter values in an approximation of $y = -1.3667$.
+From the graph in exercise 1, one zero solution was expected and the start approximation for the newton method was chosen as  $x = 1$.
+The iteration was run with $n = \{1,10,100, 1000\}$ which resultet for the two last values in identical approximations (7 significant digits, results rounded to 3 significant after coma digits): $x = \{1.222\}$.
+
 \section{Local minima of $f(x) =^{11}-5x^2+e^x-5$}
+From the graph in excercise 1, $f'$ is expected to have 2 zero solutions. A local maximum of the function $f$ should be close to $x = 0$, hence this value was used as start approximation with the newton method applied to $f'$. The obtained result with $n = \{10, 100\}$ was $(0.112, -3.944)$.
+
 \section{Find $f^{-1}(3)$ where $f(x) = x^{11}-5x^2+e^x-5$}
-  
+From the graph, $f(x)$ was expected to evaluate to $y = 3$ around $f(1.2)$. The original equation $f$ was shifted down to $g(x) = x^{11}-5x^2+e^x-8$ and solved numerically with the \verb+newton+ method.
+Hence, $f^{-1}(3) = 1.257$. The result was tested by evaluating $f(1.257)$ which yielded $y = 2.994$.
  
 \addcontentsline{toc}{section}{\refname}
 \bibliography{references}
