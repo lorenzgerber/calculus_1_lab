@@ -1,0 +1,81 @@
+
+@book{clark2015,
+  title     = {Designing for Touch},
+  author    = {Clark, Josh},
+  isbn      = 9781937557287,
+  year      = 2015,
+  pages     = 169,
+  publisher = {A book apart},
+  address   = {New York, USA}}
+
+
+@misc{materialdesign,
+  key           = {Material Design},
+  title         = {Google Material Design},
+  year          = 2017,
+  howpublished  = {\url{https://material.io}},
+  note          = {accessed: 2017-07-18}}
+
+
+@misc{navigation_drawer,
+  key           = {Google Material Design Patterns},
+  title         = {Navigation Drawer},
+  year          = 2017,
+  howpublished  = {\url{https://material.io/guidelines/patterns/navigation-drawer.html}},
+  note          = {accessed: 2017-07-22}}
+
+@misc{apple_notifications,
+  key           = {Apple macOS Notifictions},
+  title         = {macOS Sierra: Use Noticiation Center},
+  year          = 2017,
+  howpublished  = {\url{https://support.apple.com/kb/PH25142}},
+  note          = {accessed: 2017-07-26}}
+
+@misc{android_notifications,
+  key           = {Google Material Design Patterns},
+  title         = {Notifications},
+  year          = 2017,
+  howpublished  = {\url{https://material.io/guidelines/patterns/notifications.html}},
+  note          = {accessed: 2017-07-22}}
+
+@misc{material_lists,
+  key           = {Google Material Design Patterns},
+  title         = {Components - Lists - Content},
+  year          = 2017,
+  howpublished  = {\url{https://material.io/guidelines/components/lists.html#lists-content}},
+  note          = {accessed: 2017-07-26}}
+
+@misc{material_list_controls,
+  key           = {Google Material Design Patterns},
+  title         = {Components - Lists - Controls},
+  year          = 2017,
+  howpublished  = {\url{https://material.io/guidelines/components/lists-controls.html#lists-controls-types-of-list-controls}},
+  note          = {accessed: 2017-07-26}}
+
+@misc{appbar_layout,
+  key           = {Google Material Design Components},
+  title         = {Appbars},
+  year          = 2017,
+  howpublished  = {\url{https://material.io/components/android/catalog/app-bar-layout/}},
+  note          = {accessed: 2017-07-26}}
+
+@misc{adapt_ios,
+  key           = {Google Material Design Platforms},
+  title         = {Platform Adaption},
+  year          = 2017,
+  howpublished  = {\url{https://material.io/guidelines/platforms/platform-adaptation.html#}},
+  note          = {accessed: 2017-07-26}}
+
+@misc{apple_ios_design,
+  key           = {Apple Developer},
+  title         = {Human Interface Guidelines},
+  year          = 2017,
+  howpublished  = {\url{https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/}},
+  note          = {accessed: 2017-07-26}}
+
+@misc{apple_ios_3dtouch,
+  key           = {Human Interface Guidelines},
+  title         = {3D Touch},
+  year          = 2017,
+  howpublished  = {\url{https://developer.apple.com/ios/human-interface-guidelines/interaction/3d-touch/}},
+  note          = {accessed: 2017-07-26}}
